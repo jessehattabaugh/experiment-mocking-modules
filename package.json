@@ -16,7 +16,7 @@
     "url": "git+https://github.com/jessehattabaugh/experiment-mocking-modules.git"
   },
   "scripts": {
-    "test": ""
+    "test": "jest"
   },
   "version": "0.0.0"
 }
