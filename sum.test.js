@@ -1,5 +1,9 @@
 const sum = require("./sum");
 
+afterEach(() => {
+  jest.resetModules();
+});
+
 test("without a mock", () => {
   expect(sum(1, 2)).toBe(85);
 });
