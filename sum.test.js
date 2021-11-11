@@ -3,7 +3,9 @@ const sum = require("./sum.js");
 const configMock = jest.mock("./config.js");
 
 afterEach(() => {
-  jest.clearMocks();
+  jest.clearAllMocks();
+  jest.resetAllMocks();
+  jest.restoreAllMocks();
 });
 
 test("without a mock", () => {
