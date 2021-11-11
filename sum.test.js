@@ -1,7 +1,13 @@
 const sum = require("./sum");
 
+beforeEach(() => {
+  jest.clearAllMocks();
+  jest.resetAllMocks();
+  jest.restoreAllMocks();
+});
+
 test("without a mock", () => {
-  expect(sum(1, 2)).toBe(3);
+  expect(sum(1, 2)).toBe(85);
 });
 
 test("with a mock of 6", () => {
