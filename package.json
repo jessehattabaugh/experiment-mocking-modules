@@ -1,0 +1,19 @@
+{
+  "author": "Jesse Hattabaugh<jessehattabaugh@protonmail.com",
+  "bugs": {
+    "url": "https://github.com/jessehattabaugh/experiment-mocking-modules/issues"
+  },
+  "description": "an experiment to demonstrate how to mock modules in jest",
+  "homepage": "https://github.com/jessehattabaugh/experiment-mocking-modules#readme",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "experiment-mocking-modules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessehattabaugh/experiment-mocking-modules.git"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "version": "0.0.0"
+}
