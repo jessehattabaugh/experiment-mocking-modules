@@ -4,6 +4,9 @@
     "url": "https://github.com/jessehattabaugh/experiment-mocking-modules/issues"
   },
   "description": "an experiment to demonstrate how to mock modules in jest",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
   "homepage": "https://github.com/jessehattabaugh/experiment-mocking-modules#readme",
   "license": "UNLICENSED",
   "main": "index.js",
